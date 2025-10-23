@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+    font-family: 'FontLogo' ;
+    src: url("../_fonts/Pacifico-Regular.ttf");
+}
+
+body {
+    background-image: url("../_imagens/Projeto Bruxinha/Prismas_Quebrados.jpg");
+    color: rgba(0, 0, 0, 1);
+    backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .18);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, .37);
+}
+
+div#interface {
+    width: 1000px;
+    margin: -30px, auto, 10px, auto;
+    box-shadow: 0px, 0px, 10px, rgb(5, 5, 5);
+    background-color: rgb(4, 246, 246);    
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/*Formatação de imagens laterais*/
+header#cabeçalho img#gif1 {
+    width: 328px;
+    height: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 05px;
+}
+
+header#cabeçalho img#gif2 {
+    width: 328px;
+    height: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 510px;
+}
+
+header#cabeçalho img#gif3 {
+    width: 328px;
+    height: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 1020px;
+}
+
+header#cabeçalho img#gif4 {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    left: 600px;
+    top: 410px;
+}
+
+header#cabeçalho img#gif5 {
+    width: 328px;
+    height: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 1530px;
+}
+
+/*Imagens de cabeçalho*/
+
+header#cabeçalho img#logo {
+    width: 235px;
+    height: 52px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+header#cabeçalho img#icone {
+    width: 649px;
+    height: 148px;
+    position: absolute;
+    left: 350px;
+    top: 7px;
+}
+
+header#cabeçalho {
+   border-bottom: 1px green dashed;
+   height: 150px;
+}
+
+header#cabeçalho h1{
+    font-family: 'FontLogo', sans-serif;
+    font-size: 30pt;
+    color: rgb(8, 4, 4);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, .50);
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding-left: 70px;
+}
+
+header#cabeçalho h2 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 1, 1);
+    font-size: 17pt;
+    padding: 0px;
+    margin-top: 1.5px;
+    padding-left: 20px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda-Thai {
+    height: 350px;
+    width: 450px;
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda-Thai img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda-Thai figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgb(6, 120, 219);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda-Thai:hover figcaption{
+    opacity: 1;
+}
+
+figure.foto-legenda-Mia {
+    height: 350px;
+    width: 450px;
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda-Mia img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda-Mia figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgb(12, 222, 15);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda-Mia:hover figcaption{
+    opacity: 1;
+}
+
+/* Formatação do Menu */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -05px;
+    left: 340px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgba(12, 240, 240, 0.952);
+    color: red;
+    padding: 10px;
+    margin: 4px;
+    transition: background-color 1s;
+    
+}
+nav#menu li:hover {
+    background-color: blue;
+    
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a {
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+/* Formatação de posicionamento de textos*/
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid gray;
+    padding-right: 35px;
+    padding-left: 1px;
+}
+
+table#tabelaspec {
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table#tabelaspec td {
+    border: 1px solid lightgreen;
+    padding: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 400px;
+    float: right;
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: left;
+    border-right: 1px solid gray;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid gray;
+}
+
+footer#rodape p {
+    text-align: center;   
+}
